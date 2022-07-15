@@ -1,0 +1,20 @@
+
+<%- include("partials/header"); -%>
+    <h1>ABC Company Pvt. Ltd.</h1>
+    <h2><u>Customer Details</u></h2>
+    <form class="" action="/" method="post">
+      <div class="form-group">
+        <input type="text" name="postName" placeholder="Enter Name">
+        <input type="text" name="postEmail" placeholder="Enter Email ID">
+        <input type="text" name="postMobile" placeholder="Enter Mobile No.">
+        <input type="text" name="postItemName" placeholder="Enter Item Name">
+        <select  aria-label="Default select example" name="postItemType">
+          <option selected>Item Type</option>
+          <option value="Grocery">Grocery</option>
+          <option value="Apparel">Apparel</option>
+        </select>
+        <input type="text" name="postPrice" placeholder="Enter Item Price">
+      <button class="btn btn-outline-success" style="background-color: #50a3a2" type="submit" name="button">Checkout</button>
+    </form>
+
+<%- include("partials/footer"); -%>
